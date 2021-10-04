@@ -10,7 +10,7 @@ $municipio=$_POST['municipio'];
 $seccion=$_POST['seccion'];
 $representante=$_POST['representante'];
 
-$sql="UPDATE usuarios SET  distrito='$distrito',municipio='$municipio',seccion='$seccion',representante='$representante' WHERE codigo='$codigo'";
+$sql="UPDATE usuarios1 SET  distrito='$distrito',municipio='$municipio',seccion='$seccion',representante='$representante' WHERE codigo='$codigo'";
 $query=mysqli_query($conn,$sql);
 
     if($query){

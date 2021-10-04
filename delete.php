@@ -6,7 +6,7 @@ include "config.php";
 
 $codigo=$_GET['id'];
 
-$sql="DELETE FROM usuarios  WHERE codigo='$codigo'";
+$sql="DELETE FROM usuarios1  WHERE codigo='$codigo'";
 $query=mysqli_query($conn,$sql);
 
     if($query){

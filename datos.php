@@ -3,7 +3,7 @@
     session_start();
     error_reporting(0);
 
-    $sql="SELECT *  FROM usuarios";
+    $sql="SELECT *  FROM usuarios1";
     $query=mysqli_query($conn,$sql);
 
     $row=mysqli_fetch_array($query);

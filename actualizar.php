@@ -6,7 +6,7 @@ include "config.php";
 
 $id=$_GET['id'];
 
-$sql="SELECT * FROM usuarios WHERE codigo='$id'";
+$sql="SELECT * FROM usuarios1 WHERE codigo='$id'";
 $query=mysqli_query($conn,$sql);
 
 $row=mysqli_fetch_array($query);

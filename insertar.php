@@ -10,7 +10,7 @@ $seccion=$_POST['seccion'];
 $representante=$_POST['representante'];
 
 
-$sql="INSERT INTO usuarios VALUES('$codigo','$distrito','$municipio','$seccion','$representante')";
+$sql="INSERT INTO usuarios1 VALUES('$codigo','$distrito','$municipio','$seccion','$representante')";
 $query= mysqli_query($conn,$sql);
 
 $row=mysqli_fetch_array($query);
